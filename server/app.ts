@@ -1,11 +1,14 @@
-const axios = require("axios");
 const express = require("express");
 const cors = require("cors");
 const http = require("http");
 const app = express();
 
-app.use(cors());
+
 app.use(express.json());
+
+
+app.use(cors());
+
 
 const port = 5000;
 
@@ -20,7 +23,7 @@ app.get("/weight/metric", async (req: any, res: any) => {
   let bmi = (weight / ((height * height) / 10000)).toFixed(0);
   console.log(bmi)
   
-  res.status(200).json({ status: "nup nup"});
+  res.status(200).json({ status: "ok", bmi: bmi});
 });
 
 
@@ -32,7 +35,7 @@ app.get("/weight/us", async (req: any, res: any) => {
   
   console.log(bmi)
   
-  res.status(200).json({ status: "nup nup"});
+  res.status(200).json({ status: "ok", bmi: bmi});
 });
 
 
