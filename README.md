@@ -11,6 +11,12 @@ Initial scope for backend:
 
 # Further steps:
 * Deploy on aws
-* Add MongoDB backend to record weight entries
 
-(both are contigent on creating frontend as well)
+
+# Operation instructions:
+- Download zip file and decompress folder
+- Open your IDE and open the server folder
+- Enter npm install in terminal
+- Once all dependencies are installed, enter npm start in terminal
+- The backend will then be working, simply download the frontend and follow steps listed in its read me:
+    - https://github.com/Solly5310/bmi_calculator_fe

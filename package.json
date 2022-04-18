@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@aws-amplify/cli": "^8.0.1",
+    "cors": "^2.8.5"
+  }
+}
