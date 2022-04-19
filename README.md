@@ -18,5 +18,6 @@ Initial scope for backend:
 - Open your IDE and open the server folder
 - Enter npm install in terminal
 - Once all dependencies are installed, enter npm start in terminal
+    - For Mac, you may have an issue starting it, if so just follow instructions here - https://stackoverflow.com/questions/60087434/macos-catalina-fse-node-cannot-be-opened-because-the-developer-cannot-be-ver
 - The backend will then be working, simply download the frontend and follow steps listed in its read me:
     - https://github.com/Solly5310/bmi_calculator_fe
